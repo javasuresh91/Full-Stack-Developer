@@ -1,0 +1,19 @@
+body {
+    background-color: blue
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.testOne {
+    width: 200px;
+    height: 200;
+    background-color: palegreen;
+}
+
+#testTwo {
+    color: black;
+    font-size: 20px
+}

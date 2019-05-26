@@ -1,0 +1,32 @@
+.container {
+    background-color: darkslateblue;
+}
+
+h1 {
+    color: #ffffff
+}
+
+h2 {
+    color: rgb(0, 204, 255);
+}
+
+.gradientContainer {
+    background: linear-gradient(#0000cc,#9999ff); /*By Default top to Bottom*/
+}
+
+.gradientContainerToRight {
+    background: linear-gradient(to right,#0000cc,#9999ff); /*Left to right*/
+}
+
+.radialGradient {
+    background: radial-gradient(red,yellow);
+}
+
+.shadowExample {
+    color: white;
+    text-shadow : 12px 2px 15px black /* Horizontal axis, vertical axis and thickness of the shadow*/
+}
+.shadowBox {
+    background-color: gold;
+    box-shadow: 3px 3px #0000cc;
+}
