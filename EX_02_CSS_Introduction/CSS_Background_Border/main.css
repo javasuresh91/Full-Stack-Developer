@@ -1,0 +1,9 @@
+body {
+    background-image: url("download.jpg");
+    background-repeat: no-repeat; /* Without this property the image will appear multiple times in screen base don size of the image*/
+    background-size: cover /* It makes the image to appear in whole screen*/
+}
+
+.borderClass {
+    border:12px dotted white /*Width,type color*/
+}

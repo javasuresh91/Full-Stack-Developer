@@ -1,0 +1,11 @@
+
+/* CSS use the all li elements under the ul in full hierarchy */
+ul li{
+color: blueviolet;
+font-size: 20px
+}
+
+/* > symbol tels only apply the css for first level hierechy of li under ul*/
+ul > li {
+    color: green
+}
