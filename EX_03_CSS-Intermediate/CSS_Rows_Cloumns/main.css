@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    width: 100%;
+}
+
+/*After each row we need to apply this*/
+.row::after {
+    display: block;
+    clear: both;
+    contain: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-3 {
+    width: 50%;
+}
+
+/* It will handle the margin and padding values in the elements and makes to display in correct manner */
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+border: 2px solid green;
+padding: 15px;
+}
