@@ -1,0 +1,53 @@
+/* Default Desgin */
+nav,
+header,
+footer {
+    display: block;
+} 
+
+body{
+    line-height: 1;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    margin: 0;    
+}
+
+/* ul design of nav  */
+nav  ul {
+    background-color: yellow;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+} 
+
+/* li design under ul */
+ul.top-nav-level li {
+    list-style: none;
+    float: left;
+
+}
+
+/* Specify some li to tight of the screen */
+ul.top-nav-level li.top-nav-right {
+    float : right;
+}
+
+/* Specify the a design */
+ul.top-nav-level li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+/* Specify the a action */
+ul.top-nav-level li a:hover {
+background-color: palevioletred;
+color: white
+}
