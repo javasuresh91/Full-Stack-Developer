@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+header h1.sectiontwo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.rows {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.rows::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width:8.33%;
+}
+
+.col-2 {
+    width:16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Every element in the page */
+* {
+     /* This property tells that include the padding and margin size within the element size itself*/
+     box-sizing: border-box;
+    /* Example if the element width is 100px, and padding 5px and margin is 5px, 
+    so totally it takes 110px as the element size, but if we mention this property, 
+    the 100px given the padding and margin and content will be in 90px; */
+}
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+div.icon {
+    width: 100%;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bolder;
+}
+p {
+    font-size: 20px;
+    line-height: 1.2;
+
+}
+
+button.launchBtn {
+    background-color: blue;
+    font-size: 22px;
+    border-radius: 7px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: auto;    
+}
