@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Nav bar drop down</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="top-level-nav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="rightAlign"><a href="#signup">Sign Up</a></li>
+                <li class="rightAlign"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="rows">
+                <div class="col-7">
+                    <article>
+                        <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopIcon">
+                        <img src="iOS-Slope.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function dropDownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === 'top-level-nav') 
+                {
+                    x.className += " responsive";
+                    // Chnage topnav to responsive nav
+                } else {
+                    x.className == 'top-level-nav'
+                }
+            }
+        </script>
+    </body>
+</html>

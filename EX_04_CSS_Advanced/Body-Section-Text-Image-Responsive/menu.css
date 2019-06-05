@@ -1,0 +1,94 @@
+nav, header,footer {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+nav ul {
+    background-color: yellow;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.top-level-nav li {
+    list-style: none;
+    float: left;
+}
+
+ul.top-level-nav li.rightAlign {
+    float: right;
+}
+
+ul.top-level-nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 14px;
+    text-align: center;
+    margin: 5px;
+    min-height: 10px;
+}
+
+ul.top-level-nav li a:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+/* Menu bar for the mobile view */
+
+ul.top-level-nav li.dropdownIcon {
+    display: none;
+}
+
+@media screen and (max-width:680px) {
+    /* This is will remove all the List items 
+        But our expectation is one item should be remain */
+    /* ul.top-level-nav li {
+        display: none;
+    } */
+    /* This will remove all item except first child item of Ul */
+    ul.top-level-nav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    /* Making the Symbol to view */
+    ul.top-level-nav li.dropdownIcon {
+        display: block;
+        float: right;
+        text-align: center;
+        margin: 5px;
+    }
+
+    ul.top-level-nav.responsive { /* responsive class is append dynamically through the javascript*/
+        position: relative;
+    }
+
+    ul.top-level-nav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.top-level-nav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    /* Making the the drop down icon static position */
+    ul.top-level-nav li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .col-7 {
+        width: 100%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+
+    div.slopIcon img {
+        width: 100%;
+    }
+}
