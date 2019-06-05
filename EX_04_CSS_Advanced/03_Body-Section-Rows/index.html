@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form Groups</title>
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="top-level-nav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="rightAlign"><a href="#signup">Sign Up</a></li>
+                <li class="rightAlign"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+
+        <div class="container" id="section-1-gradient">
+            <div class="rows">
+                <div class="col-6 leftAlign">
+                    <div>
+                        <h2 class="textLarge">Test</h2>
+                        <h2 class="textLarge">Section</h2>
+                    </div>
+                    <form>
+                        <div>
+                            <h3>Username</h3>
+                            <input class="inputCLass" type="text">
+                            <h3>Password</h3>
+                            <input class="inputCLass" type="text">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            function dropDownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === 'top-level-nav') 
+                {
+                    x.className += " responsive";
+                    // Chnage topnav to responsive nav
+                } else {
+                    x.className == 'top-level-nav'
+                }
+            }
+        </script>
+    </body>
+</html>

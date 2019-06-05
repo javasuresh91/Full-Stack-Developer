@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Nav bar drop down</title>
+        
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="top-level-nav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="rightAlign"><a href="#signup">Sign Up</a></li>
+                <li class="rightAlign"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <header >
+            <h1 class="sectiontwo">The standard Awesome</h1>
+        </header>
+        <div class="container" >
+            <div class="rows">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <div>
+                            <label>Chat with me</label>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <div>
+                            <label>Build the Code</label>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <div>
+                            <label>Deploy the code</label>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="col-12">
+                    <button class="launchBtn">Launch</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function dropDownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === 'top-level-nav') 
+                {
+                    x.className += " responsive";
+                    // Chnage topnav to responsive nav
+                } else {
+                    x.className == 'top-level-nav'
+                }
+            }
+        </script>
+    </body>
+</html>
