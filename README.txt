@@ -38,4 +38,8 @@ Javascript
     -Now a days we can run the Javascript in the Servers and Mac and Knode.
     -We can write the Javascript in inline(in the HTML file . inside the script tag) and seperate file.
     -We can write the content in the console for debugging purpose.
+Javascript Reference 
+    -https://www.w3schools.com/jsref/jsref_obj_string.asp
+    -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String    
+    -http://jsbin.com/?html,output
     
