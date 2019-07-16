@@ -29,4 +29,17 @@ CSS Color
 CSS Combinator
     -USing space (ul li {})                
     -Using Shift arrow (ul > li {})
+
+Javascript    
+    -It is a Programming language and it is created by 10 days by Brendan Ike for Netsacpe
+    -It is a very nasty language.
+    -Javascript is used in all Frameworks like Anugular, react and etc
+    -It is also a interpreted language, which will not compile but works on the fly by the browser reads it and works.
+    -Now a days we can run the Javascript in the Servers and Mac and Knode.
+    -We can write the Javascript in inline(in the HTML file . inside the script tag) and seperate file.
+    -We can write the content in the console for debugging purpose.
+Javascript Reference 
+    -https://www.w3schools.com/jsref/jsref_obj_string.asp
+    -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String    
+    -http://jsbin.com/?html,output
     
