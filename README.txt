@@ -49,6 +49,15 @@ Bootstrap
 Downloading Bootstrap
     -https://getbootstrap.com/docs/4.0/getting-started/download/
     -Download the Complied version of Bootstrap(Not Source file)
+Bootstrap Basic Rules/Required tags
+    -Doctype and lang is must
+        <!Doctype html> <html lang="en">...</html>
+    -Metadata is required, because the Bootstrap looks for the model(Mobile,tab,system) first.
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    -Bootstrap Css
+    -Jquery file
+    -Tether file
+    -Bootstrap javascript file    
 
 
-    
