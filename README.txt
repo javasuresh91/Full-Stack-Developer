@@ -59,5 +59,12 @@ Bootstrap Basic Rules/Required tags
     -Jquery file
     -Tether file
     -Bootstrap javascript file    
+Bootstrap Grid System.
+    -In Bootstrap we have two types of Container classes like .container and .container-fluid
+    -To make the bootstrap works we should start the body section with container classes.
+    -Container consist of rows.
+    -The rows consist of columns.
+    -Columns are coming in small(sm),medium(md),large(lg),XtraLarge(xl).
+
 
 

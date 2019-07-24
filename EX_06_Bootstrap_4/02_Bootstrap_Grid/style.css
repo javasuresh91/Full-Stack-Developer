@@ -1,0 +1,21 @@
+.container {
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+.container-fluid {
+    background-color: aqua;
+    height: 100px;
+}
+
+.row {
+    background-color: blue;
+    height: 80px;
+        
+}
+
+[class*='col-'] {
+    background-color: azure;
+    height: 70px;
+    border: 2px dotted black;
+}
