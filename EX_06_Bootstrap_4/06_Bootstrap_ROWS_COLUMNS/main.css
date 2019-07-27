@@ -1,0 +1,23 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2rem;
+}
+
+.sectiontwoDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.coolStuff {
+    padding-top: 2rem;
+}
+
+.coolBtn {
+    display: block;
+    margin: auto;
+}
