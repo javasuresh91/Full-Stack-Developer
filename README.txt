@@ -42,4 +42,29 @@ Javascript Reference
     -https://www.w3schools.com/jsref/jsref_obj_string.asp
     -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String    
     -http://jsbin.com/?html,output
-    
+Bootstrap
+    -It is a Frameworks for build the mobile first websites for the application.
+    -It comes with lot of classes and styling effects within.
+    -Media query is used within that to build the frameworks.
+Downloading Bootstrap
+    -https://getbootstrap.com/docs/4.0/getting-started/download/
+    -Download the Complied version of Bootstrap(Not Source file)
+Bootstrap Basic Rules/Required tags
+    -Doctype and lang is must
+        <!Doctype html> <html lang="en">...</html>
+    -Metadata is required, because the Bootstrap looks for the model(Mobile,tab,system) first.
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    -Bootstrap Css
+    -Jquery file
+    -Tether file
+    -Bootstrap javascript file    
+Bootstrap Grid System.
+    -In Bootstrap we have two types of Container classes like .container and .container-fluid
+    -To make the bootstrap works we should start the body section with container classes.
+    -Container consist of rows.
+    -The rows consist of columns.
+    -Columns are coming in small(sm),medium(md),large(lg),XtraLarge(xl).
+
+
+
