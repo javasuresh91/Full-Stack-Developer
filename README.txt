@@ -65,6 +65,14 @@ Bootstrap Grid System.
     -Container consist of rows.
     -The rows consist of columns.
     -Columns are coming in small(sm),medium(md),large(lg),XtraLarge(xl).
-
-
-
+Flexbox
+    -It is a CSS3 layout mode , whichprovide a easy and clean way to arrange items within a container.
+        -No floats
+        -Keeping the child elemnts very easier
+        -responsive and mobile friendly
+        -Flex container margin wont collapse with margin of elements.
+        -Changing the order of the elements.
+    -Flexbox model concept
+        -Direction-Agnostic
+        -Width and height of the elemnts will fit for best
+        -Small scale layout while the GRID standard
