@@ -76,3 +76,19 @@ Flexbox
         -Direction-Agnostic
         -Width and height of the elemnts will fit for best
         -Small scale layout while the GRID standard
+SASS
+    -SASS = Syntactically Awesome StyleSheet
+    -It is powerfull language which is used to wrte the CSS, and it is extented language of CSS.(www.sass-lang.com)
+    -We have SCSS, LESS are the CSS extension framework.
+Install SASS
+    -First Install Ruby
+    -Go to the cmd prompt and install Sass using ruby command
+    -"gen install sass"
+    -SASS use "ATOM" ide is better
+Compile and Watch SASS Code
+    -Create html(index.html) and sass(mystyle.sass) file in a directory(Project)
+    -Code the html and also add the <link> tag with the stylesheet(any filename - mystyle.css)
+    -And then goto the cmd prompt to the location where the project and run the below command
+    -"sass --watch <sass_filename>:<css_filename>" i.e., "sass --watch mystyle.sass:mystyle.css"
+    -By executing the above cmd, the two extra file will be created(mystyle.css and mystyle.map.css) and the cmd will listen to the changes to SASS file.
+    -Now if you start writing the sass file, the automatically compile and generate the css in the croessponding css file.

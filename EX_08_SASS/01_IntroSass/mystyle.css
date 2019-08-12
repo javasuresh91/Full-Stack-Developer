@@ -1,0 +1,20 @@
+body {
+  background-color: #ffff99;
+  font-size: 20px; }
+  body div h1 {
+    color: green; }
+
+h1 {
+  color: white; }
+
+p {
+  color: #ff0080; }
+
+.circle {
+  background-color: #ffcce6;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #333; }
+
+/*# sourceMappingURL=mystyle.css.map */
