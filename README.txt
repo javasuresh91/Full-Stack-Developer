@@ -99,3 +99,5 @@ Different Way to compile SASS
         -"sass --watch <sass_folder_dir>:<css_folder_dir>"
     -Third Way : using Third party APP like CODEKIT, PREPOSE , MIXTURE,KOALA,WINLESS,SIMPLESS    
     -Fourth Way : using the plugin in the IDE like Bracket,Atoms and etc    
+Standard Way of CSS
+    -http://smacss.com/
