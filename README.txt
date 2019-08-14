@@ -92,3 +92,10 @@ Compile and Watch SASS Code
     -"sass --watch <sass_filename>:<css_filename>" i.e., "sass --watch mystyle.sass:mystyle.css"
     -By executing the above cmd, the two extra file will be created(mystyle.css and mystyle.map.css) and the cmd will listen to the changes to SASS file.
     -Now if you start writing the sass file, the automatically compile and generate the css in the croessponding css file.
+Different Way to compile SASS
+    -First  Way : Manually open the cmd prompt and GOTO the dir where the sass file located and run the cmd like "sass <input_file_name>.sass <output_file_name>.css"
+    -Second way :  open the cmd prompt and GOTO the dir/file where the sass file located and run the cmd like 
+        -"sass --watch <sass_filename>.sass:<css_filename>.css"
+        -"sass --watch <sass_folder_dir>:<css_folder_dir>"
+    -Third Way : using Third party APP like CODEKIT, PREPOSE , MIXTURE,KOALA,WINLESS,SIMPLESS    
+    -Fourth Way : using the plugin in the IDE like Bracket,Atoms and etc    
