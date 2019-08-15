@@ -99,5 +99,8 @@ Different Way to compile SASS
         -"sass --watch <sass_folder_dir>:<css_folder_dir>"
     -Third Way : using Third party APP like CODEKIT, PREPOSE , MIXTURE,KOALA,WINLESS,SIMPLESS    
     -Fourth Way : using the plugin in the IDE like Bracket,Atoms and etc    
-Standard Way of CSS
+Standard Way of CSS (EX_08_SASS\03_Standard-Structure)
     -http://smacss.com/
+Partial SASS Compile (EX_08_SASS\04_Partial_SASS_Compile)
+    -If you do "sass --watch" for directory level, it will generate the css and css mapping file for each sass file in the dir.
+    -If you want to skip the watch to particular sass file, the name of the sass file should be starts with "_" UNDERSCORE
