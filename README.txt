@@ -76,3 +76,31 @@ Flexbox
         -Direction-Agnostic
         -Width and height of the elemnts will fit for best
         -Small scale layout while the GRID standard
+SASS
+    -SASS = Syntactically Awesome StyleSheet
+    -It is powerfull language which is used to wrte the CSS, and it is extented language of CSS.(www.sass-lang.com)
+    -We have SCSS, LESS are the CSS extension framework.
+Install SASS
+    -First Install Ruby
+    -Go to the cmd prompt and install Sass using ruby command
+    -"gen install sass"
+    -SASS use "ATOM" ide is better
+Compile and Watch SASS Code
+    -Create html(index.html) and sass(mystyle.sass) file in a directory(Project)
+    -Code the html and also add the <link> tag with the stylesheet(any filename - mystyle.css)
+    -And then goto the cmd prompt to the location where the project and run the below command
+    -"sass --watch <sass_filename>:<css_filename>" i.e., "sass --watch mystyle.sass:mystyle.css"
+    -By executing the above cmd, the two extra file will be created(mystyle.css and mystyle.map.css) and the cmd will listen to the changes to SASS file.
+    -Now if you start writing the sass file, the automatically compile and generate the css in the croessponding css file.
+Different Way to compile SASS
+    -First  Way : Manually open the cmd prompt and GOTO the dir where the sass file located and run the cmd like "sass <input_file_name>.sass <output_file_name>.css"
+    -Second way :  open the cmd prompt and GOTO the dir/file where the sass file located and run the cmd like 
+        -"sass --watch <sass_filename>.sass:<css_filename>.css"
+        -"sass --watch <sass_folder_dir>:<css_folder_dir>"
+    -Third Way : using Third party APP like CODEKIT, PREPOSE , MIXTURE,KOALA,WINLESS,SIMPLESS    
+    -Fourth Way : using the plugin in the IDE like Bracket,Atoms and etc    
+Standard Way of CSS (EX_08_SASS\03_Standard-Structure)
+    -http://smacss.com/
+Partial SASS Compile (EX_08_SASS\04_Partial_SASS_Compile)
+    -If you do "sass --watch" for directory level, it will generate the css and css mapping file for each sass file in the dir.
+    -If you want to skip the watch to particular sass file, the name of the sass file should be starts with "_" UNDERSCORE

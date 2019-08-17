@@ -1,0 +1,55 @@
+//VARIABLES
+$brand-main: #6600CC
+$brand-sub: #CC66FF
+$brand-dark: #333
+$brand-light: #E6F2FF
+
+//MIXING - Defining/Declaring the Mixing Syntax of SASS
+=shaping($height,$width,$rad,$bg,$color)
+    height: $height
+    width: $width
+    -webkit-border-radius: $rad
+    -moz-border-radius: $rad
+    -ms-border-radius: $rad
+    border-radius: $rad
+    background-color: $bg
+    color: $color
+=btn-main($padding,$rad,$bg,$color)        
+    padding: $padding
+    border-radius: $rad
+    background-color: $bg
+    color: $color
+    border-width: 0
+    border-style: none
+    cursor: pointer /* In mixing we can give the default value also*/
+    display: block
+    margin: auto
+    &:hover
+        background-color: lighten($brand-main,20%)
+
+
+
+//STYLES
+body
+    background-color: $brand-light
+h1
+    text-align: center
+    padding-top: 20px
+section
+    background-color: $brand-sub
+    color: $brand-dark
+    width: 780px
+    margin: auto
+    padding: 20px
+    border-radius: 7px
+    
+.thumb1 
+    +shaping(120px,120px,10%,$brand-dark,$brand-light) /* using/Calling the Mixing for our usage*/
+    margin: auto
+.thumb2
+    +shaping(100px,100px,50%,$brand-dark,$brand-sub)
+    margin: -35px 1050px
+.btn-1
+    +btn-main(15px 20px,7px,$brand-main,$brand-light)
+    
+    
