@@ -113,4 +113,12 @@ Web Request
 Node(EX_09_NODE\01_SampleApp)
     -Npm is Node Package Manager which is used to install the libary which is needed for Node Application
     -All file should be .js files
-    -If you need to use any libary into the appliaction, use 'require' method. Eg: require('readline-sync')    
+    -If you need to use any libary into the appliaction, use 'require' method. Eg: require('readline-sync')   
+Creat Node App(EX_09_NODE\03_First_Node_Api)    
+    -Intialize the Application using cmd "npm init"
+    -It will ask for some info and it create a file call package.json with some information
+    -Create js file(server.js) in the name of which will ask in the above cmd.
+    -If you need any dependency, run the cmd as "npm install --save <dependency_name>"
+    -This command will install the depenency and save the dependency name in our package.json and it will add or update the node_modules folder
+    -Code the server.js as needed
+    -Run the cmd "npm start" - it will see the package.json run the stmt which match in the script or "node server.js" - it run the file directly
