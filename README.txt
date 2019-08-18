@@ -110,3 +110,7 @@ Web Request
     -The server send the same data to all the client which is requesting it, but the intreperter will play the role to display the information to us based on the client mode.
     -HTTP means Hyper text Transfer Protocol, using this protocol the client send the request to the server using the very specific ipaddress to send the information which is belogs to my requesting URL.
     -The server send the response to the client as a HTTP response like html,json , xml and etc format
+Node(EX_09_NODE\01_SampleApp)
+    -Npm is Node Package Manager which is used to install the libary which is needed for Node Application
+    -All file should be .js files
+    -If you need to use any libary into the appliaction, use 'require' method. Eg: require('readline-sync')    
