@@ -104,3 +104,9 @@ Standard Way of CSS (EX_08_SASS\03_Standard-Structure)
 Partial SASS Compile (EX_08_SASS\04_Partial_SASS_Compile)
     -If you do "sass --watch" for directory level, it will generate the css and css mapping file for each sass file in the dir.
     -If you want to skip the watch to particular sass file, the name of the sass file should be starts with "_" UNDERSCORE
+Web Request
+    -Asking a resource by the client to the server
+    -Client mode may be Desktop or mobile browser, Apps ,Curl command and etc
+    -The server send the same data to all the client which is requesting it, but the intreperter will play the role to display the information to us based on the client mode.
+    -HTTP means Hyper text Transfer Protocol, using this protocol the client send the request to the server using the very specific ipaddress to send the information which is belogs to my requesting URL.
+    -The server send the response to the client as a HTTP response like html,json , xml and etc format
