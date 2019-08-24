@@ -122,3 +122,22 @@ Creat Node App(EX_09_NODE\03_First_Node_Api)
     -This command will install the depenency and save the dependency name in our package.json and it will add or update the node_modules folder
     -Code the server.js as needed
     -Run the cmd "npm start" - it will see the package.json run the stmt which match in the script or "node server.js" - it run the file directly
+React 
+    -Setting up the React App using the "npm install -g create-react-app"
+    -Once it Success, run the cmd create-react-app <app_name>. Eg: create-react-app swag-shop
+    -It will create the Full React Project Structure with a page and related files.
+    -Go into the project folder(swag-shop) and run the npm start, it will open the browser and run the welcome page
+How the React Render
+    -Once the Server is up the React known to load the public/index.html bt default
+    -The element(in index.html) id is found "<div id="root"></div>" based on the id value the corresponding Component will get loaded
+    -The Mapping between id value and React Component is done in the index.js(in our above project), it will load all the necessary css js to the compenent,
+    -The Compenent is created in the App.js file with the react syntax along with html tags.
+    -NOTE: React deals with component wise not by page wise, so you can use any compenent in any pages and N number of times.
+Old JavaScript vs New Javascript(ES6)    
+    -Using a Node Module
+        Old : var my_React = require('react')
+        New : import my_React from 
+    -Calling Call-Back Function
+        Old : app.post("/todo",function(err,result){...});
+        New : app.post("/todo",(err,result)=>{...});
+    -Likewise we are many syntax change to make code more Clear and Visible    
