@@ -152,3 +152,7 @@ React Props and State
     -How the HTML tags has the attributes, as same the React Component as attributes(props).
         Eg: <Product title="test" price="4.50"/> , this is placed in the parent so it can send to the Product Component Implementation.
     -To access this value in the implementation, React has the Syntax: {this.props.<prop_name>}, Eg: {this.props.price}    
+    -State is used to define the variable which can be change its state each time.
+    -this.state is used to declare the variable. syntax: this.state = {<variable_name>:<default_variable_value>}
+    -this.setStatus() is used to assign the value for the state variable. syntax: this.setState({<variable_name>:<variable_value>}) 
+    -Whenever calling this.setState() the full component will get reloaded.
