@@ -32,14 +32,20 @@ class App extends Component {
     }
 
     render() {
+        /** price and title is the prop of the Product Component*/
         return ( 
             < div className = "App" >
                 <div className = "App-header" >
                     <img src = {logo} className = "App-logo" alt = "logo"></img>
                     <h2 > Welcome to React < /h2> 
                 </ div > 
-                <div className="App-main">
-                    <Product/>
+                <div className="container App-main">
+                    <div className="row">
+                        <Product className="col-sm-4" price="4.25" title="My product" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                        <Product className="col-sm-4" price="5.25" title="My product Two" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                        <Product className="col-sm-4" price="6.25" title="My product Three" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                    </div>
+                    
                 </div>        
                 
             < /div>

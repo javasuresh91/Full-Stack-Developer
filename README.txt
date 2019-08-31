@@ -144,3 +144,11 @@ Old JavaScript vs New Javascript(ES6)
 ES6 and Promise in React
     -The HTTP call always async call in the react so by using the promise we can ensure that, the resolve/Reject is received and then the code is yet to execute.
     -Resolve and reject is the two object which is used to decide the Promise is success or error.
+React Props and State
+    -React Component/Entity will be in using two behaviour on it like state and props  .
+    -Props always the read-only and static.    
+    -State will be changeable and read-writeable
+    -The values of the props will be transfer to the parent component to child component.
+    -How the HTML tags has the attributes, as same the React Component as attributes(props).
+        Eg: <Product title="test" price="4.50"/> , this is placed in the parent so it can send to the Product Component Implementation.
+    -To access this value in the implementation, React has the Syntax: {this.props.<prop_name>}, Eg: {this.props.price}    
