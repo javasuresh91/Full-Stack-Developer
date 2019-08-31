@@ -6,11 +6,17 @@ This is new javascript ES6 Class, it wont avaliable in old javascript files
 */
 
 class HttpService {
+
     getProduct = () => {
-        fetch('http://127.0.0.1:5000/getProduct')
-            .then(response => {
-                console.log(response.json());
-            })
+        //resolve is for success
+        //reject is for error
+        var promise = new Promise((resolve, reject) => {
+            fetch('http://127.0.0.1:5000/getProduct')
+                .then(response => {
+                    resolve(response.json());
+                })
+        });
+        return promise;
     }
 }
 

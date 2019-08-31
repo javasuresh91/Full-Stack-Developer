@@ -140,4 +140,7 @@ Old JavaScript vs New Javascript(ES6)
     -Calling Call-Back Function
         Old : app.post("/todo",function(err,result){...});
         New : app.post("/todo",(err,result)=>{...});
-    -Likewise we are many syntax change to make code more Clear and Visible    
+    -Likewise we are many syntax change to make code more Clear and Visible   
+ES6 and Promise in React
+    -The HTTP call always async call in the react so by using the promise we can ensure that, the resolve/Reject is received and then the code is yet to execute.
+    -Resolve and reject is the two object which is used to decide the Promise is success or error.

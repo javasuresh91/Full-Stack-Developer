@@ -11,7 +11,23 @@ class App extends Component {
 
     constructor(props) {
         super(props);
-        http.getProduct()
+
+        //Bind Function in ES6 React
+        this.loadData = this.loadData.bind(this);
+
+        //calling the binded method
+        this.loadData();
+    }
+
+    loadData = () => {
+        //.then will execute when the response is received from method call
+        //The method return response as success(data) or error(err) , based on that, the method body will execute
+        http.getProduct().then(data => {
+            //method body
+            console.log(data);
+        }, err => {
+            //method body
+        });
     }
 
     render() {
