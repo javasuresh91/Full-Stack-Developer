@@ -3,8 +3,12 @@ import React, {
 } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//Service
 import HttpService from '../services/http-services';
+
+//Component
 import Product from '../product/product';
+import WishList from '../wishlist/wishlist';
 
 const http = new HttpService();
 
@@ -54,14 +58,23 @@ class App extends Component {
                     <img src = {logo} className = "App-logo" alt = "logo"></img>
                     <h2 > Welcome to React < /h2> 
                 </ div > 
-                <div className="container App-main">
+                <div className="container-fluid App-main">
                     <div className="row">
-                        <Product className="col-sm-4" price="4.25" title="My product" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
-                        <Product className="col-sm-4" price="5.25" title="My product Two" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
-                        <Product className="col-sm-4" price="6.25" title="My product Three" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                    <div className="col-sm-8">  
+                        <div className="row">
+                            <Product className="col-sm-4" price="4.25" title="My product" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                            <Product className="col-sm-4" price="5.25" title="My product Two" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                            <Product className="col-sm-4" price="6.25" title="My product Three" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
                         
-                        {this.productList()}
+                            {this.productList()}                        
+                        </div>
+                        
                     </div>
+                    <div className="col-sm-4">
+                        <WishList/>
+                    </div>
+                        </div>    
+                    
                     
                 </div>        
                 
