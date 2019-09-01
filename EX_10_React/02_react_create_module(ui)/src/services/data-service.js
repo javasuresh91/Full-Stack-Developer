@@ -19,7 +19,7 @@ class DataService {
     removeWishListItem = item => {
         for(var x=0;x<wishList.length;x++) {
             if(wishList[x].id===item.id) {
-                wishList.slice(x,1);
+                wishList.splice(x,1);
                 break;
             }
         }

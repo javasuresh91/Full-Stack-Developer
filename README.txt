@@ -156,3 +156,6 @@ React Props and State
     -this.state is used to declare the variable. syntax: this.state = {<variable_name>:<default_variable_value>}
     -this.setStatus() is used to assign the value for the state variable. syntax: this.setState({<variable_name>:<variable_value>}) 
     -Whenever calling this.setState() the full component will get reloaded.
+Observer
+    -It is class or component whioch is used to listen the Registry, In registry we can add the component to listen.
+    -
