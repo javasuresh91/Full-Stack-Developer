@@ -13,8 +13,8 @@ class NotificationService {
     
     postNotification = (notifName,data) => {
         let obs = observers[notifName] ; 
-        for(var x = 0; x<obs.length;x++) {
-            var obj = obj[x];
+        for(var x = 0; x < obs.length;x++) {
+            var obj = obs[x];
             obj.callback(data);
         }
     }

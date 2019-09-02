@@ -43,7 +43,7 @@ class App extends Component {
     productList = () => {
         const list = this.state.products.map((prod)=>
             <div className="col-sm-4" key={prod.id}>
-                <Product title={prod.title} price={prod.price} 
+                <Product title={prod.title} price={prod.price} myId={prod.id}
                     myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
             </div>
         );
@@ -62,9 +62,9 @@ class App extends Component {
                     <div className="row">
                     <div className="col-sm-8">  
                         <div className="row">
-                            <Product className="col-sm-4" price="4.25" title="My product" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
-                            <Product className="col-sm-4" price="5.25" title="My product Two" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
-                            <Product className="col-sm-4" price="6.25" title="My product Three" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                            <Product className="col-sm-4" price="4.25" title="My product" myId="8" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                            <Product className="col-sm-4" price="5.25" title="My product Two" myId="9" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
+                            <Product className="col-sm-4" price="6.25" title="My product Three" myId="10" myOwnImg ="https://odditymall.com/includes/content/upload/water-cannon-squirt-gun-with-tripod-5718.jpg"/>
                         
                             {this.productList()}                        
                         </div>
