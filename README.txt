@@ -122,3 +122,40 @@ Creat Node App(EX_09_NODE\03_First_Node_Api)
     -This command will install the depenency and save the dependency name in our package.json and it will add or update the node_modules folder
     -Code the server.js as needed
     -Run the cmd "npm start" - it will see the package.json run the stmt which match in the script or "node server.js" - it run the file directly
+React 
+    -Setting up the React App using the "npm install -g create-react-app"
+    -Once it Success, run the cmd create-react-app <app_name>. Eg: create-react-app swag-shop
+    -It will create the Full React Project Structure with a page and related files.
+    -Go into the project folder(swag-shop) and run the npm start, it will open the browser and run the welcome page
+How the React Render
+    -Once the Server is up the React known to load the public/index.html bt default
+    -The element(in index.html) id is found "<div id="root"></div>" based on the id value the corresponding Component will get loaded
+    -The Mapping between id value and React Component is done in the index.js(in our above project), it will load all the necessary css js to the compenent,
+    -The Compenent is created in the App.js file with the react syntax along with html tags.
+    -NOTE: React deals with component wise not by page wise, so you can use any compenent in any pages and N number of times.
+Old JavaScript vs New Javascript(ES6)    
+    -Using a Node Module
+        Old : var my_React = require('react')
+        New : import my_React from 
+    -Calling Call-Back Function
+        Old : app.post("/todo",function(err,result){...});
+        New : app.post("/todo",(err,result)=>{...});
+    -Likewise we are many syntax change to make code more Clear and Visible   
+ES6 and Promise in React
+    -The HTTP call always async call in the react so by using the promise we can ensure that, the resolve/Reject is received and then the code is yet to execute.
+    -Resolve and reject is the two object which is used to decide the Promise is success or error.
+React Props and State
+    -React Component/Entity will be in using two behaviour on it like state and props  .
+    -Props always the read-only and static.    
+    -State will be changeable and read-writeable
+    -The values of the props will be transfer to the parent component to child component.
+    -How the HTML tags has the attributes, as same the React Component as attributes(props).
+        Eg: <Product title="test" price="4.50"/> , this is placed in the parent so it can send to the Product Component Implementation.
+    -To access this value in the implementation, React has the Syntax: {this.props.<prop_name>}, Eg: {this.props.price}    
+    -State is used to define the variable which can be change its state each time.
+    -this.state is used to declare the variable. syntax: this.state = {<variable_name>:<default_variable_value>}
+    -this.setStatus() is used to assign the value for the state variable. syntax: this.setState({<variable_name>:<variable_value>}) 
+    -Whenever calling this.setState() the full component will get reloaded.
+Observer
+    -It is class or component whioch is used to listen the Registry, In registry we can add the component to listen.
+    -
